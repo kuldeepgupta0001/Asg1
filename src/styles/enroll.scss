@@ -1,0 +1,102 @@
+.enroll {
+  padding: 1rem 10rem;
+  min-height: 100vh;
+  background-color: $white_color1;
+  > p {
+    word-spacing: 2px;
+    padding-top: 15px;
+    padding-bottom: 3rem;
+    font-weight: bold;
+  }
+
+  > .content1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4rem;
+    > .item1 {
+      > h3 {
+        color: $primary_color;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        padding-bottom: 1rem;
+      }
+      p {
+        border: 2px solid grey;
+        padding: 1rem 2rem;
+        border-radius: 20px;
+        font-size: 1rem;
+        align-items: center;
+        letter-spacing: 5px;
+        color: $black_color;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+    }
+    > .item2 {
+      background-color: $white_color;
+      border-radius: 2rem;
+      padding: 1rem 3rem;
+      > h3 {
+        color: $primary_color;
+        font-weight: 500;
+        letter-spacing: 1.5px;
+        padding-bottom: 1rem;
+      }
+      p {
+        font-size: 1rem;
+        align-items: center;
+        letter-spacing: 5px;
+        color: $black_color;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+    }
+  }
+
+  > .content2 {
+    padding-bottom: 3rem;
+    .rolled {
+      color: $primary_color;
+      padding-bottom: 1.5rem;
+    }
+    > div {
+      display: flex;
+      gap: 2rem;
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+      .cardItem {
+        padding: 1rem;
+        background: $gradient_color;
+        color: $white_color;
+
+        border-radius: 10px;
+        > .info {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding-top: 10px;
+        }
+        > h3 {
+          margin: 1rem 0;
+        }
+        > .courses {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          padding: 0.6rem 1rem;
+          gap: 1rem;
+          > div {
+            border: 2px solid white;
+            border-radius: 25px;
+            padding: 5px;
+          }
+        }
+      }
+    }
+  }
+  > a {
+    color: $primary_color;
+    font-weight: 900;
+  }
+}
